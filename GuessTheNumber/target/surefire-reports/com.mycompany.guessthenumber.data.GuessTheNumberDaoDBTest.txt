@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.mycompany.guessthenumber.data.GuessTheNumberDaoDBTest
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 10.453 s <<< FAILURE! - in com.mycompany.guessthenumber.data.GuessTheNumberDaoDBTest
+testDeleteRoundById  Time elapsed: 0.109 s  <<< ERROR!
+org.springframework.dao.EmptyResultDataAccessException: Incorrect result size: expected 1, actual 0
+	at com.mycompany.guessthenumber.data.GuessTheNumberDaoDBTest.testDeleteRoundById(GuessTheNumberDaoDBTest.java:263)
+
